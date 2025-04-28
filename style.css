@@ -28,7 +28,6 @@ body {
 
 /* article start */
 .contant {
-  /* border: 1px solid red; */
   width: 100vw;
   height: 50vh;
   display: flex;
@@ -36,7 +35,6 @@ body {
   align-items: center;
 }
 .container {
-  /* border: 1px solid rgb(255, 0, 204); */
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 3%;
@@ -53,7 +51,6 @@ body {
   box-shadow: 5px 5px 5px 5px rgb(128, 127, 127);
 }
 .story {
-  /* border: 5px solid rgb(234, 255, 0); */
   height: 60vh;
   display: flex;
   flex-direction: column;
@@ -63,7 +60,6 @@ body {
   width: 95%;
 }
 .more-info {
-  /* border: 5px solid rgb(255, 0, 204); */
   height: 30vh;
   width: 95%;
   display: flex;
@@ -76,7 +72,6 @@ body {
   justify-content: space-between;
   gap: 5px;
   width: 15%;
-  /* border: 5px solid rgb(93, 0, 255); */
 }
 .Comments button {
   background-color: black;
@@ -88,11 +83,33 @@ body {
   width: 20%;
 }
 .item2 {
-  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  box-shadow: 5px 5px 10px rgb(128, 127, 127);
+}
+
+.item2 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.item2 h3,
+p {
+  width: 93%;
+  text-align: justify;
+}
+
+.item2 p {
+  font-size: 14px;
+  height: 12vh;
 }
 .item3 {
-  box-shadow: 5px 5px 5px rgb(128, 127, 127);
+  box-shadow: 5px 5px 10px rgb(128, 127, 127);
   height: 50vh;
+  border-radius: 20px;
 }
 .Popular-header {
   height: 8vh;
@@ -100,13 +117,11 @@ body {
 }
 .Posts {
   display: flex;
-  /* border: 5px solid rgb(93, 0, 255); */
   align-items: center;
   justify-content: space-around;
   height: 10vh;
 }
 .post-title {
-  /* border: 5px solid rgb(93, 0, 255); */
   display: flex;
   flex-direction: column;
   width: 70%;
